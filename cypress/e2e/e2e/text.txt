@@ -1,0 +1,18 @@
+    it('DT01', function () {
+      cy.visit("https://app.todoist.com/auth/login")
+      cy.get('#element-0').type('bennita42+1@gmail.com')
+      cy.get('#element-3').type('Punya1234')
+      cy.get('._966b120f > .F9gvIPl').click().wait(1000)
+      cy.get('.EnOQGHT').contains('Today')
+      cy.get('#task-7653287619-content > ._14423c92').contains('New Task 01').as('UT01')
+      cy.get('@UT01').click()
+      cy.get('.eae3d34f').find('aria-haspopup="menu"')
+      cy.get('div.fb8d74bb > .f53218d > button._8644eccb ').click({ multiple: true })
+      cy.get('.a83bd4e0  > .a8d37c6e  > ._2f303ac3  > .fb8d74bb  > ._211eebc7').click({ multiple: true })
+    }),
+    it.skip('DT02', function () { }),
+    it.skip('DT03', function () { }),
+    it.skip('STL01', function () { }),
+    it.skip('STL02', function () { }),
+    it.skip('STL03', function () { }),
+    it.skip('STL04', function () { })

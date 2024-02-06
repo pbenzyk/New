@@ -1,0 +1,29 @@
+{
+  "name": "Using fixtures to represent data",
+  "email": "",
+  "password": "",
+  "body": "Fixtures are a great way to mock data for responses to routes",
+  "address": {
+    "name": "คุณมายออร์เดอร์ ผู้น่ารัก",
+    "tel": "0831725655",
+    "telConvert": "083-172-5655",
+    "address1": "69/429 หมู่2",
+    "address2": "ต.วิชิต อ.เมือง จ.ภูเก็ต 83000",
+    "email": "test@myorder.ai ",
+    "comment": "ทดสอบระบบ",
+    "longName": "คุณมายออร์เดอร์ ผู้น่ารักคุณมายออร์เดอร์ ผู้น่ารักคุณมายออร์เดอร์ ผู้น่ารัก",
+    "shortTel": "083"
+  },
+  "product": {
+    "name": "Test Product 01",
+    "price": "150",
+    "weight": "0.5"
+  },
+  "slip": {
+    "image": "cypress/fixtures/01.jpg",
+    "amount": "500",
+    "date": "2024-02-05",
+    "time": "01:30",
+    "name": "test"
+  }
+}
